@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Flight Finder</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="center-div">
+    <h1>Result</h1>
+    <p th:text="'Flight count: ' + ${count}"/>
+    <a href="/count">Go back</a>
+</div>
+</body>
+</html>
